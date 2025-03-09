@@ -54,6 +54,8 @@ font-weight: 500;
 margin-left: 5%;
 }
 
+
+
 #todo-input:focus{
     outline: none;
 }
@@ -118,10 +120,15 @@ margin-left: 5%;
     
 
     }
+#todo-list{
+    margin-left: 5%;
+    padding: 0%;
+}
 
 .todo{
     width: 100%;
-    margin: 12px 0;
+    margin: 12px 12px;
+    
     background-color: white;
     box-shadow: 0 0.5em 0.5em -0.4em #746f6c;
     border-radius: 15px;
@@ -233,6 +240,9 @@ input[type="checkbox"]{
         .box{
             
             min-height: 60vh;
+            
+        }
+        .todo{
             
         }
 
