@@ -198,7 +198,7 @@ fill: #ff0033f4;
     color: transparent;
     transition: 200ms ease;
     cursor: pointer;
-    pointer-events: none;
+    
     }
     .custom-checkbox:active svg{
         -webkit-user-select: none; /* Safari */
