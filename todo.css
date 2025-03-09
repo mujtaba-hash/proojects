@@ -207,24 +207,35 @@ input[type="checkbox"]{
 }
 
 @media screen and (max-width:500px){
-*{
-    size: 80%;
-}
+      
     html{
-font-size: 12pt;
-}
-#add-button{
-position: unset;
-width: 100%;
-margin-top: 10px;
-padding: 15px;
-height: auto;
-}
+    font-size: 12pt;
+    }
+    body{
+        padding: 0px;
+        margin: 0;
+    }
+    #add-button{
+    position: unset;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    height: auto;
+        }
 
-h1{
-font-size:7vw;
+    h1{
+        font-size:7vw;
 
-}
+        }
+       .container{
+        margin-top: 10%;
+       }
+        .box{
+            width: 5000px;
+            min-height: 60vh;
+            
+        }
+
 }
 
 a{
