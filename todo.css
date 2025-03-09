@@ -75,6 +75,7 @@ margin-left: 5%;
     background-color: var(--background);
     cursor: pointer;
     transition: 50ms ease-out;
+    user-select: none;
 }
 
 #add:hover,
@@ -173,7 +174,7 @@ margin-left: 5%;
     -moz-user-select: none;    /* Firefox */
     -ms-user-select: none;     /* Internet Explorer/Edge */
     user-select: none;
-    pointer-events: none; 
+    
 }
 .del svg{
 transition: 200ms ease;
